@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <header>
+        <h1>Register Here</h1>
+    </header>
+
+    <section>
+        <form action="">
+            <div>
+                <label for="player-name">Player Name</label>
+                <input 
+                    type="text" 
+                    id="player-name" 
+                    name="player_name" 
+                    placeholder="Enter your name"
+                    required
+                >
+            </div>
+
+            <!-- UID -->
+            <div>
+                <label for="uid">Game UID</label>
+                <input 
+                    type="tel" 
+                    id="uid" 
+                    name="uid" 
+                    placeholder="Enter your UID"
+                    required
+                >
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label for="email">Email</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="example@gmail.com"
+                    required
+                >
+            </div>
+
+            <!-- Phone -->
+            <div>
+                <label for="phone">Phone Number</label>
+                <input 
+                    type="tel" 
+                    id="phone" 
+                    name="phone" 
+                    placeholder="Enter your phone number"
+                    required
+                >
+            </div>
+
+            <!-- Game Level -->
+            <div>
+                <label for="level">Game Level</label>
+                <input 
+                    type="number" 
+                    id="level" 
+                    name="level" 
+                    min="1" 
+                    max="100"
+                    placeholder="Enter level"
+                >
+            </div>
+
+            <!-- Favourite Weapon -->
+            <div>
+                <h3>Favourite Weapon</h3>
+
+                <input type="radio" id="ump" name="weapon" value="UMP">
+                <label for="ump">UMP</label>
+
+                <input type="radio" id="m1887" name="weapon" value="M1887">
+                <label for="m1887">M1887</label>
+
+                <input type="radio" id="woodpecker" name="weapon" value="Woodpecker">
+                <label for="woodpecker">Woodpecker</label>
+
+                <input type="radio" id="desert-eagle" name="weapon" value="Desert Eagle">
+                <label for="desert-eagle">Desert Eagle</label>
+            </div>
+
+            <!-- Screenshot Upload -->
+            <div>
+                <label for="screenshot">Upload Screenshot</label>
+                <input 
+                    type="file" 
+                    id="screenshot" 
+                    name="screenshot"
+                >
+            </div>
+
+            <!-- Team Description -->
+            <div>
+                <label for="description">Team Description</label>
+                <textarea 
+                    id="description" 
+                    name="description"
+                    rows="5"
+                    cols="30"
+                    placeholder="Describe your team"
+                ></textarea>
+            </div>
+
+            <!-- Rules -->
+            <div>
+                <h3>Rules</h3>
+
+                <input type="checkbox" id="rule-age" name="rules">
+                <label for="rule-age">No 18+ content</label>
+
+                <br>
+
+                <input type="checkbox" id="rule-respect" name="rules">
+                <label for="rule-respect">No player shaming</label>
+            </div>
+
+            <!-- Submit -->
+            <div>
+                <button type="submit" aria-lebel="submit or register">Register Now</button>
+            </div>
+
+        </form>
+    </section>
+</body>
+</html>
