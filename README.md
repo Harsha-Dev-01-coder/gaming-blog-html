@@ -1,21 +1,33 @@
-# 🎮 Esports News Website
+# 🎮 Gaming Blog Website
 
-A semantic HTML project focused on building a structured esports and gaming news website.
+A multi-page semantic HTML project focused on building a structured gaming and esports news website.
 
-This project was created to practice advanced HTML concepts including semantic tags, accessibility, SEO basics, and clean website structure.
+This project was created to practice professional HTML structure, accessibility, SEO basics, navigation systems, and scalable website organization.
 
 ---
 
 # 🚀 Features
 
-- Semantic HTML5 structure
+- Multi-page website structure
+- Semantic HTML5 layout
 - Gaming news articles
-- Sidebar with trending games
+- Tournament section
+- Contact page
 - FAQ section
-- SEO meta tags
-- Accessibility improvements
-- Multi-page structure
 - Embedded media support
+- Navigation system
+- Accessibility improvements
+- SEO-ready structure
+
+---
+
+# 📄 Pages Included
+
+- Home Page
+- About Page
+- Tournament Page
+- Contact Page
+- Article Pages
 
 ---
 
@@ -30,63 +42,84 @@ This project was created to practice advanced HTML concepts including semantic t
 This project helped me practice:
 
 - Semantic HTML
+- Multi-page Website Architecture
+- Navigation Systems
 - Accessibility
 - SEO Basics
 - Article Structure
-- Website Layout Planning
-- HTML Page Organization
+- Media Embedding
+- Professional Folder Organization
 
 ---
 
-# 🧩 Website Sections
+# 📁 Folder Structure
 
-- Header
-- Navigation
-- Hero Section
-- News Articles
-- Sidebar
-- FAQ Section
-- Footer
+```text
+gaming-blog/
+
+│── index.html
+│── about.html
+│── tournament.html
+│── registration.html
+│── contact.html
+│
+├── pages/
+│
+├── assets/
+│   ├── images/
+│   ├── videos/
+│   ├── audio/
+│   └── icons/
+│
+└── README.md
+```
 
 ---
 
 # ♿ Accessibility Features
 
-- Proper alt text
-- Labels for inputs
-- Semantic tags
-- Improved document structure
+- Proper alt text for images
+- Semantic HTML tags
+- Labels for form inputs
+- Structured content sections
 
 ---
 
 # 🔍 SEO Features
 
-- Meta description
-- Title tag
+- Title tags
+- Meta descriptions
 - Viewport meta tag
-- Favicon support
+- Structured semantic content
 
 ---
 
 # 🎯 Project Goal
 
-The goal of this project was to improve HTML structure skills by building a real-world style esports news website instead of relying only on tutorials.
+The goal of this project was to improve HTML skills by building a real-world style gaming blog website instead of relying only on tutorials.
+
+---
+
+# 🌐 Multi-Page Website Upgrade
+
+This project was upgraded into a professional multi-page website structure to practice scalable HTML architecture and clean project organization.
 
 ---
 
 # 📷 Future Improvements
 
-- Add CSS styling
-- Make website responsive
-- Add dark mode
-- Add JavaScript functionality
-- Connect backend/database
+- Responsive Design
+- Better UI Layout
+- Improved Accessibility
+- Interactive Features
+- Performance Optimization
 
 ---
 
 # 📌 Author
 
 Made by champ!!
+
 
 # Live Demo
 
