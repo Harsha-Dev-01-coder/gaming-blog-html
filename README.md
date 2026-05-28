@@ -1,8 +1,8 @@
 # 🎮 Gaming Blog Website
 
-A multi-page semantic HTML project focused on building a structured gaming and esports news website.
+A multi-page semantic HTML and CSS project focused on building a structured gaming and esports news website.
 
-This project was created to practice professional HTML structure, accessibility, SEO basics, navigation systems, and scalable website organization.
+This project was created to practice professional frontend structure, responsive design, Flexbox layout systems, accessibility, SEO basics, and scalable website organization.
 
 ---
 
@@ -10,14 +10,15 @@ This project was created to practice professional HTML structure, accessibility,
 
 - Multi-page website structure
 - Semantic HTML5 layout
-- Gaming news articles
+- Responsive CSS design
+- Gaming news articles system
 - Tournament section
-- Contact page
-- FAQ section
-- Embedded media support
+- Sidebar with trending games and categories
+- FAQ section using details/summary
+- Embedded video support
 - Navigation system
-- Accessibility improvements
-- SEO-ready structure
+- Flexbox-based layout system
+- Mobile-friendly responsive design
 
 ---
 
@@ -34,6 +35,9 @@ This project was created to practice professional HTML structure, accessibility,
 # 🛠️ Technologies Used
 
 - HTML5
+- CSS3
+- Flexbox
+- Media Queries (Responsive Design)
 
 ---
 
@@ -43,84 +47,67 @@ This project helped me practice:
 
 - Semantic HTML
 - Multi-page Website Architecture
+- CSS Flexbox Layout System
+- Responsive Web Design
 - Navigation Systems
-- Accessibility
+- Accessibility Basics
 - SEO Basics
-- Article Structure
-- Media Embedding
+- Article/Card UI Structure
+- Sidebar Layout Design
 - Professional Folder Organization
+- Git & GitHub Workflow
 
 ---
 
 # 📁 Folder Structure
 
-```text
+`text id="folder_structure_1"
 gaming-blog/
 
 │── index.html
 │── about.html
 │── tournament.html
-│── registration.html
 │── contact.html
 │
-├── pages/
+├── css/
+│   └── style.css
 │
 ├── assets/
 │   ├── images/
 │   ├── videos/
-│   ├── audio/
 │   └── icons/
 │
 └── README.md
-```
+♿ Accessibility Features
+Proper alt text for all images
+Semantic HTML tags (header, main, section, article, aside, footer)
+Proper heading hierarchy
+Structured content sections
+🔍 SEO Features
+Title tags for each page
+Meta descriptions
+Semantic structure for search ranking
+Clean URL-friendly navigation structure
+Viewport meta tag for mobile optimization
+🎯 Project Goal
 
----
+The goal of this project was to move from beginner HTML to a real-world structured website by building a scalable gaming blog with professional layout practices.
 
-# ♿ Accessibility Features
+🌐 Multi-Page Website Upgrade
 
-- Proper alt text for images
-- Semantic HTML tags
-- Labels for form inputs
-- Structured content sections
+This project demonstrates a transition from basic HTML pages to a structured multi-page frontend system with reusable components and organized architecture.
 
----
-
-# 🔍 SEO Features
-
-- Title tags
-- Meta descriptions
-- Viewport meta tag
-- Structured semantic content
-
----
-
-# 🎯 Project Goal
-
-The goal of this project was to improve HTML skills by building a real-world style gaming blog website instead of relying only on tutorials.
-
----
-
-# 🌐 Multi-Page Website Upgrade
-
-This project was upgraded into a professional multi-page website structure to practice scalable HTML architecture and clean project organization.
-
----
-
-# 📷 Future Improvements
-
-- Responsive Design
-- Better UI Layout
-- Improved Accessibility
-- Interactive Features
-- Performance Optimization
-
----
-
-# 📌 Author
+📷 Future Improvements
+Advanced responsive design improvements
+JavaScript interactivity (DOM manipulation)
+Dark/Light mode toggle
+Animations and transitions
+Performance optimization
+Component-based structure upgrade
+📌 Author
 
 Made by champ!!
 
-
-# Live Demo
+🔗 Live Demo
 
 https://harsha-dev-01-coder.github.io/gaming-blog-html/
