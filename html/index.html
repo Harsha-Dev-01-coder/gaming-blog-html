@@ -19,6 +19,12 @@
     <header class="header">
         <h1 class="logo">LOGO</h1>
 
+        <h1 id="title">Gaming Blog</h1>
+
+        <button id="change-btn">
+            Change Title
+        </button>
+
         <nav class="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -28,6 +34,10 @@
             </ul>
         </nav>
     </header>
+
+    <section>
+            <div id="game-container"></div>
+        </section>
 
     <!-- MAIN CONTENT WRAPPER -->
     <div class="layout">
@@ -112,21 +122,31 @@
                     <source src="./assets/videos/gameplay.mp4" type="video/mp4">
                 </video>
             </section>
-
+            <button id="btn">Click Me</button>
         </main>
 
+        <div class="card">
+            News Card
+        
+
+            <button id="color-btn">
+            Change Color
+            </button>
+        </div>
+        
+
         <!-- SIDEBAR -->
-        <aside class="sidebar">
+        <aside id="sidebar">
 
             <section>
-                <h2>Trending Games</h2>
-                <ul>
-                    <li>Free Fire</li>
-                    <li>BGMI</li>
-                    <li>Valorant</li>
-                    <li>CS2</li>
-                    <li>Call of Duty Mobile</li>
-                </ul>
+                    <h2>Trending Games</h2>
+                    <ul>
+                        <li>Free Fire</li>
+                        <li>BGMI</li>
+                        <li>Valorant</li>
+                        <li>CS2</li>
+                        <li>Call of Duty Mobile</li>
+                    </ul>
             </section>
 
             <section>
@@ -149,10 +169,18 @@
                     <li>PC Gaming</li>
                 </ul>
             </section>
-            <button class="toggle-btn">Toggle Sidebar</button>
+            <button id="toggle-btn">Toggle Sidebar</button>
 
         </aside>
 
+    </div>
+
+    <div>
+        <h2 id="count">0</h2>
+
+        <button id="increase-btn">
+            Increase
+        </button>  
     </div>
 
     <!-- FAQ SECTION -->
